@@ -1,10 +1,53 @@
 <!DOCTYPE html>
 <html>
-  <head>
-<p>Please click on the name of person you comming for,<BR>
-you will get conntaced with him</p>
-    <title>Compliance & AML Department</title>
-    <style>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>
+</head>
+ <style>
       .button {
         display: inline-block;
         padding: 10px 20px;
@@ -20,22 +63,41 @@ you will get conntaced with him</p>
         background-color: #c2c7c7;
       }
     </style>
-  </head>
-  <body>
-    <a class="button" href="tel:0112906261">Mishal Al-Ismail</a>
-    <BR><BR>
-<a class="button" href="tel:0112906209">Abdulaziz</a>
-  <a class="button" href="http://callme.bankalbilad.com/call/6149">Aljazi</a>  
-<a class="button" href="http://callme.bankalbilad.com/call/6138">Nouf</a>
-<BR><BR>
-<a class="button" href="tel:0112906245">Abdullah</a>
-<a class="button" href="tel:0112906242">Fawaz</a>
-    <a class="button" href="tel:0112906280">Naif</a>
-<BR><BR>
-    <a class="button" href="tel:0112906216">Mansour</a>
-    <a class="button" href="http://callme.bankalbilad.com/call/6140">Saad</a>
-    <a class="button" href="http://callme.bankalbilad.com/call/6161">Meshal Bin Othaimeen</a>
+<body style="font-family:Verdana;">
 
-  </body>
+<div style="background-color:#f1f1f1;padding:15px;">
+ 
+  <h3><p>Please click on the name of person you comming for,<BR>
+you will get connected with him</p></h3>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <div class="menuitem"><a class="button" href="tel:0112906261">Mishal Al-Ismail</a></div>
+    <div class="menuitem"><a class="button" href="tel:0112906209">Abdulaziz</a></div>
+    <div class="menuitem"><a class="button" href="http://callme.bankalbilad.com/call/6149">Aljazi</a>   </div>
+    <div class="menuitem"><a class="button" href="http://callme.bankalbilad.com/call/6138">Nouf</a></div>
+        <div class="menuitem"><a class="button" href="tel:0112906245">Abdullah</a></div>
+    <div class="menuitem"><a class="button" href="tel:0112906242">Fawaz</a></div>
+        <div class="menuitem"><a class="button" href="tel:0112906280">Naif</a></div>
+    <div class="menuitem"> <a class="button" href="tel:0112906216">Mansour</a></div>
+    <div class="menuitem"> <a class="button" href="http://callme.bankalbilad.com/call/6140">Saad</a></div>
+    <div class="menuitem"><a class="button" href="http://callme.bankalbilad.com/call/6161">Meshal Bin Othaimeen</a></div>
+    
+  </div>
+
+   <div class="right">
+   
+    <p>If you calling a non-direct number, you will be requested to install Cisco Jabber for one time only.</p>
+  
+  </div>
+</div>
+
+
+
+
+<div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;"><BR></div>
+
+</body>
 </html>
 
